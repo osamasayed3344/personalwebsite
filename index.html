@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>personal page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css"> 
+	    <script src="js/script.js"></script>
+    </head>
+    <body>
+	    <!-----------------------------------header-------------------------->
+		<header>
+		    <nav>
+				<h1 onclick="display_logo()">Osama Sayed</h1>
+				<div id="menu" onclick="funclick()">
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+				<ul>
+					<li><a onclick="display_about()" >About</a></li>
+					<li><a onclick="display_skills()">Skills</a></li>
+					<li><a onclick="display_Experience()">Experience</a></li>
+					<li><a onclick="display_Education()">Education</a></li>
+					<li><a onclick="display_Portfolio()">portfolio</a></li>
+					<li><a onclick="display_contact()">contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<!---------------------------------slider------------------------------------------>
+		<div class="slider">
+			<div class="container">
+				<div class="center_content">
+					<img src="img/IMG_٢٠٢٢٠٢٠٢_١٣٣٥٢٩_٤٧٣.jpg">
+					<h1>Osama Sayed</h1>
+					<p>Front-end developer</p>
+					<div id="buttons">
+						<button class="btn">Hire me</button>
+						<button class="btn">Download CV</button>
+					</div>
+					<div id="social_media">
+						<a href=""><img src="img/facebook.png"></a>
+						<a href=""><img src="img/instagram.png"></a>
+						<a href=""><img src="img/twitter.png"></a>
+						<a href=""><img src="img/youtube.png"></a>
+					</div>
+				<div>
+			</div>
+		</div>
+		<!--------------------------------about------------------------------------------>
+		<div class="about">
+			<div class="left">
+				<h1>About</h1>
+				<p>Hello! I am osama  sayed. Web Developer, Graphic Designer and Photographer</p>
+			</div>
+			<div class="right">
+				<h1>Basic Information</h1>
+				<table id="information">
+					<tr>
+						<td>Age:</td>
+						<td>23</td>
+					</tr>
+					<tr>
+						<td>Email:</td>
+						<td>osamasayed@gmail.com</td>
+					</tr>
+					<tr>
+						<td>phone:</td>
+						<td>01551061350</td>
+					</tr>
+					<tr>
+						<td>Address:</td>
+						<td>samalout,minya,egypt</td>
+					</tr>
+					<tr>
+						<td>Language:</td>
+						<td>Arabic,english</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<!--------------------------------skills------------------------------------------>
+		<div class="skills">
+			<h1>Professional Skills</h1>
+			<div class="skill_info">
+				<div class="row">
+					<label id="skill_name">html</label>
+					<label id="centaury">90%</label>
+					<div class="loading"><div style="width:90%"></div></div>
+				</div>
+				<div class="row">
+					<label id="skill_name">css</label>
+					<label id="centaury">80%</label>
+					<div class="loading"><div style="width:80%"></div></div>
+				</div>
+				<div class="row">
+					<label id="skill_name">javascript</label>
+					<label id="centaury">88%</label>
+					<div class="loading"><div style="width:88%"></div></div>
+				</div>
+				<div class="row">
+					<label id="skill_name">react.js</label>
+					<label id="centaury">70%</label>
+					<div class="loading"><div style="width:70%"></div></div>
+				</div>
+				<div class="row">
+					<label id="skill_name">CNNA</label>
+					<label id="centaury">80%</label>
+					<div class="loading"><div style="width:80%"></div></div>
+				</div>
+			</div>
+		</div>
+		<!--------------------------------experience------------------------------------------>
+		<div class="experience">
+			<h1>Work Experience</h1>
+			<div class="experience_info">
+				<label class="date">MARCH 2021</label>
+				<label class="dep">Front End Developer</label>
+				<label class="date">MARCH 2021</label>
+				<label class="dep">CCNA</label>
+			</div>
+		</div>
+		<!--------------------------------education------------------------------------------>
+		<div class="education">
+			<h1>Education</h1>
+			<div class="education_info">
+				<label class="date">2018 - 2022 Bachelor's Degree</label>
+				<label class="dep">Bachelor of Computer Science university minya</label>
+			</div>
+		</div>
+		<!--------------------------------portfolio------------------------------------------>
+		<div class="portfolio">
+			<h1>Portfolio</h1>
+			<div class="portfolio_info">
+				<a href="file:///C:/Users/Osama/Desktop/webside/pargraph_setting/index.html"><img src="img/pargraph_setting.png"></a>
+				<a href="file:///C:/Users/Osama/Desktop/webside/XO_game/index.html"><img src="img/xo_game.png"></a>
+				<a href="file:///C:/Users/Osama/Desktop/webside/slider_img/index.html"><img src="img/slider_img.png"></a>
+				<a href="file:///C:/Users/Osama/Desktop/projects/calculator/index.html"><img src="img/calculator.PNG"></a>
+				<a href="file:///C:/Users/Osama/Desktop/projects/RGBcolor/index.html"><img src="img/rgbcolor.PNG"></a>
+			</div>
+		</div>
+		<!--------------------------------contact------------------------------------------>
+		<div class="contact">
+		<form>
+		    <label>Contact</label>
+			<input type="text" placeholder="Name">
+			<input type="text" placeholder="Subject">
+			<input type="text" placeholder="Email">
+			<textarea placeholder="Message" cols="30" rows="10"></textarea>
+			<button class="btn">Send</button>
+		</form>
+		</div>
+		<footer>
+			<p>&copy 2023 All rights reversed by devloper osama sayed</p>
+		</footer>
+    </body>
+</html>
