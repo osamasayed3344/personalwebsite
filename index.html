@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>personal page</title>
+        <title>Profile</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/style.css"> 
-	    <script src="js/script.js"></script>
+		<link rel="icon" href="img/profileimg.jpg">
     </head>
     <body>
 	    <!-----------------------------------header-------------------------->
@@ -17,12 +17,12 @@
 					<div></div>
 				</div>
 				<ul>
-					<li><a onclick="display_about()" >About</a></li>
-					<li><a onclick="display_skills()">Skills</a></li>
-					<li><a onclick="display_Experience()">Experience</a></li>
-					<li><a onclick="display_Education()">Education</a></li>
-					<li><a onclick="display_Portfolio()">portfolio</a></li>
-					<li><a onclick="display_contact()">contact</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#experience">Experience</a></li>
+					<li><a href="#education">Education</a></li>
+					<li><a href="#portfolio">portfolio</a></li>
+					<li><a href="#contact">contact</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -47,70 +47,74 @@
 			</div>
 		</div>
 		<!--------------------------------about------------------------------------------>
-		<div class="about">
-			<div class="left">
-				<h1>About</h1>
-				<p>Hello! I am osama  sayed. Web Developer, Graphic Designer and Photographer</p>
+		<section>
+			<div class="about" id="about">
+				<div class="left">
+					<h1>About</h1>
+					<p>Hello! I am osama  sayed. Web Developer, Graphic Designer and Photographer</p>
+				</div>
+				<div class="right">
+					<h1>Basic Information</h1>
+					<table id="information">
+						<tr>
+							<td>Age:</td>
+							<td>23</td>
+						</tr>
+						<tr>
+							<td>Email:</td>
+							<td>osamasayed@gmail.com</td>
+						</tr>
+						<tr>
+							<td>phone:</td>
+							<td>01551061350</td>
+						</tr>
+						<tr>
+							<td>Address:</td>
+							<td>samalout,minya,egypt</td>
+						</tr>
+						<tr>
+							<td>Language:</td>
+							<td>Arabic,english</td>
+						</tr>
+					</table>
+				</div>
 			</div>
-			<div class="right">
-				<h1>Basic Information</h1>
-				<table id="information">
-					<tr>
-						<td>Age:</td>
-						<td>23</td>
-					</tr>
-					<tr>
-						<td>Email:</td>
-						<td>osamasayed@gmail.com</td>
-					</tr>
-					<tr>
-						<td>phone:</td>
-						<td>01551061350</td>
-					</tr>
-					<tr>
-						<td>Address:</td>
-						<td>samalout,minya,egypt</td>
-					</tr>
-					<tr>
-						<td>Language:</td>
-						<td>Arabic,english</td>
-					</tr>
-				</table>
-			</div>
-		</div>
+		</section>
 		<!--------------------------------skills------------------------------------------>
-		<div class="skills">
-			<h1>Professional Skills</h1>
-			<div class="skill_info">
-				<div class="row">
-					<label id="skill_name">html</label>
-					<label id="centaury">90%</label>
-					<div class="loading"><div style="width:90%"></div></div>
-				</div>
-				<div class="row">
-					<label id="skill_name">css</label>
-					<label id="centaury">80%</label>
-					<div class="loading"><div style="width:80%"></div></div>
-				</div>
-				<div class="row">
-					<label id="skill_name">javascript</label>
-					<label id="centaury">88%</label>
-					<div class="loading"><div style="width:88%"></div></div>
-				</div>
-				<div class="row">
-					<label id="skill_name">react.js</label>
-					<label id="centaury">70%</label>
-					<div class="loading"><div style="width:70%"></div></div>
-				</div>
-				<div class="row">
-					<label id="skill_name">CNNA</label>
-					<label id="centaury">80%</label>
-					<div class="loading"><div style="width:80%"></div></div>
+		<section>
+			<div class="skills" id="skills">
+				<h1>Professional Skills</h1>
+				<div class="skill_info">
+					<div class="row">
+						<label id="skill_name">html</label>
+						<label id="centaury">90%</label>
+						<div class="loading"><div style="width:90%"></div></div>
+					</div>
+					<div class="row">
+						<label id="skill_name">css</label>
+						<label id="centaury">80%</label>
+						<div class="loading"><div style="width:80%"></div></div>
+					</div>
+					<div class="row">
+						<label id="skill_name">javascript</label>
+						<label id="centaury">88%</label>
+						<div class="loading"><div style="width:88%"></div></div>
+					</div>
+					<div class="row">
+						<label id="skill_name">react.js</label>
+						<label id="centaury">70%</label>
+						<div class="loading"><div style="width:70%"></div></div>
+					</div>
+					<div class="row">
+						<label id="skill_name">CNNA</label>
+						<label id="centaury">80%</label>
+						<div class="loading"><div style="width:80%"></div></div>
+					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 		<!--------------------------------experience------------------------------------------>
-		<div class="experience">
+		<div class="experience" id="experience">
 			<h1>Work Experience</h1>
 			<div class="experience_info">
 				<label class="date">MARCH 2021</label>
@@ -120,7 +124,7 @@
 			</div>
 		</div>
 		<!--------------------------------education------------------------------------------>
-		<div class="education">
+		<div class="education" id="education">
 			<h1>Education</h1>
 			<div class="education_info">
 				<label class="date">2018 - 2022 Bachelor's Degree</label>
@@ -128,7 +132,7 @@
 			</div>
 		</div>
 		<!--------------------------------portfolio------------------------------------------>
-		<div class="portfolio">
+		<div class="portfolio" id="portfolio">
 			<h1>Portfolio</h1>
 			<div class="portfolio_info">
 				<a href="https://osamasayed3344.github.io/pargraph_setting"><img src="img/pargraph_setting.png"></a>
@@ -139,7 +143,7 @@
 			</div>
 		</div>
 		<!--------------------------------contact------------------------------------------>
-		<div class="contact">
+		<div class="contact" id="contact">
 		<form>
 		    <label>Contact</label>
 			<input type="text" placeholder="Name">
@@ -152,5 +156,6 @@
 		<footer>
 			<p>&copy 2023 All rights reversed by devloper osama sayed</p>
 		</footer>
+		<script src="js/script.js"></script>
     </body>
 </html>
