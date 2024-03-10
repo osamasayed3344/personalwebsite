@@ -334,7 +334,7 @@ header .left button{
     .about > h1,.skills >h1,.education > h1,.project >h1,.contact >h1{
         text-align: center;
         border-bottom: 3px solid rgb(8, 42, 104);
-        margin: 0 500px;
+        margin: 0 400px;
         padding: 20px;
         zoom: 30%;
     }
@@ -367,13 +367,13 @@ header .left button{
         display: flex;
         flex-wrap: wrap;
         padding: 60px;
-        padding-left: 245px;
-        padding-right: 245px;
+        padding-left: 246px;
+        padding-right: 246px;
         zoom: 30%;
     }
     .project .infromation img{
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
     }
     .contact >h1{
         margin-bottom: 60px;
