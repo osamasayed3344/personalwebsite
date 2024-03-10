@@ -367,15 +367,28 @@ header .left button{
         display: flex;
         flex-wrap: wrap;
         padding: 60px;
-        padding-left: 246px;
-        padding-right: 246px;
-        zoom: 30%;
+        padding-left: 380px;
+        padding-right: 380px;
+        zoom: 25%;
     }
     .project .infromation img{
-        width: 250px;
-        height: 250px;
+        width: 300px;
+        height: 300px;
     }
     .contact >h1{
         margin-bottom: 60px;
+    }
+    .project .infromation .item button{
+        cursor: pointer;
+        background-color: rgb(8, 42, 104);
+        color: white;
+        outline: none;
+        border: none;
+        border-radius: 2px;
+        padding: 10px;
+        width: 100px;
+        margin: 30px;
+        margin-left:100px;
+        margin-right:100px;
     }
 }
