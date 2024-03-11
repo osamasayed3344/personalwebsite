@@ -48,7 +48,11 @@ btndemo3.onclick=function(){
     window.open("https://osamasayed3344.github.io/XOgame/");
 }
 
+const btndemo4=document.getElementById("btndemo4");
 
+btndemo4.onclick=function(){
+    window.open("https://osamasayed3344.github.io/clock/");
+}
 /*---------------------------------------------------------------*/
 
 const menubtn=document.getElementById("menubtn");
