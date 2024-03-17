@@ -51,7 +51,7 @@ btndemo3.onclick=function(){
 const btndemo4=document.getElementById("btndemo4");
 
 btndemo4.onclick=function(){
-    window.open("https://osamasayed3344.github.io/clock/");
+    window.open("https://osamasayed3344.github.io/profiledoctor/");
 }
 /*---------------------------------------------------------------*/
 
