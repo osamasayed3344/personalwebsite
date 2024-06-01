@@ -53,6 +53,12 @@ const btndemo4=document.getElementById("btndemo4");
 btndemo4.onclick=function(){
     window.open("https://osamasayed3344.github.io/profiledoctor/");
 }
+
+const btndemo5=document.getElementById("btndemo5");
+
+btndemo5.onclick=function(){
+    window.open("https://osamasayed3344.github.io/fristporject/");
+}
 /*---------------------------------------------------------------*/
 
 const menubtn=document.getElementById("menubtn");
